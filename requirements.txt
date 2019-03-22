@@ -1,2 +1,2 @@
-https://github.com/qtacore/QT4C/archive/master.zip
+https://github.com/qtacore/QT4C/archive/dev.zip
 qt4w
