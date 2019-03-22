@@ -19,7 +19,7 @@ class HelloTest(Demo4wTestCase):
 
     def run_test(self):
         self.startStep('1.设置信息并提交')
-        browser = Browser("Chrome")
+        browser = Browser("IE")
         self.logInfo('打开web页面')
         page = browser.open_url('https://qtacore.github.io/qt4w/demo.html', DemoPage)
         self.logInfo('用户名设置为qta')
