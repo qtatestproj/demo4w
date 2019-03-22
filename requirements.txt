@@ -1,1 +1,2 @@
-qtaf
+https://github.com/qtacore/QT4C/archive/master.zip
+qt4w
