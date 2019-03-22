@@ -4,6 +4,7 @@
 # 2019/03/22 QTAF自动生成
 
 from testbase import testcase
+from qt4w.browser.browser import Browser
 
 
 class Demo4wTestCase(testcase.TestCase):
