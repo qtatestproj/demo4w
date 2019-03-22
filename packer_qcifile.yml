@@ -1,0 +1,13 @@
+
+version: 1.0
+
+worker:
+    docker:
+        image: csig/qci-python3:latest
+
+stages:
+    - stage: 打包上传
+      cmds:
+        - ls -lah .
+        - pip3 install -U qta-packer
+        - qta-packer
